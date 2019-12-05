@@ -13,8 +13,8 @@ body{
     height: 50vh;
 }
 
-.main-navigation .title{
-    
+.main-navigation .title-boost{
+    font-size: 3rem;
 }
 
 .nav-right{
