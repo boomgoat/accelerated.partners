@@ -1,6 +1,8 @@
 body{
     margin: 0;
     padding: 0;
+    min-height: 200vh;
+    background-color: blue!important;
 }
 
 .container-fluid{
@@ -9,12 +11,69 @@ body{
 }
 
 .main-navigation{
-    background-color: inherit;
+    position: fixed!important;
+    background-color: rgba(255, 255, 255, 0);
     height: 50vh;
+    transition: all 0.3s ease-in-out;
+}
+
+.main-navigation *{
+    color: white;
+}
+
+.main-navigation .nav-item{
+    color: white;
+}
+
+.scroll-nav{
+    background-color: rgba(255, 255, 255, 1);
+    height: 12vh;
+    color: black!important;
+    transition: all 0.3s ease-in-out;
+}
+
+.scroll-nav *{
+    color: black!important;
+}
+
+.nav-item{
+    transition: all 0.1s ease-in-out;
+}
+
+.scroll-nav .nav-item{
+    padding-left: 5%;
+    padding-right: 5%;
+    transition: all 0.1s ease-in-out;
+}
+
+.scroll-nav .title{
+    width: 200px;
+    transition: all 0.1s ease-in-out;
+}
+
+.title{
+    width: 400px;
+    transition: all 0.1s ease-in-out;
+}
+
+.mini-title{
+    font-size: 1vw!important;
+    transition: all 0.1s ease-in-out;
+}
+
+.mini-title-boost{
+    font-size: 2vw;
+    transition: all 0.1s ease-in-out;
 }
 
 .main-navigation .title-boost{
     font-size: 3rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.main-navigation .title-sub-boost{
+    font-size: 2rem;
+    transition: all 0.1s ease-in-out;
 }
 
 .nav-right{
