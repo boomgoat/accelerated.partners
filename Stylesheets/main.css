@@ -10,6 +10,10 @@ body{
     padding: 0!important;
 }
 
+.mobile-logo{
+    display: none!important;
+}
+
 .main-navigation{
     position: fixed!important;
     background-color: rgba(255, 255, 255, 0);
@@ -83,3 +87,15 @@ body{
 .nav-left .nav-item{
     float: right!important;
 }
+
+@media screen and (max-width: 768px) {
+    .main-navigation{
+        background-color: rgba(255, 255, 255, 1);
+        height: 12vh;
+        color: black!important;
+        transition: all 0.35s ease-in-out;
+    }
+    .mobile-logo{
+        display: inline!important;
+    }
+  }
