@@ -14,4 +14,9 @@ function scrollFunction() {
     }
 }
 
+function toggle() {
+    var element = document.getElementById("nav-toggle");
+    element.classList.toggle("rotate");
+}
+
 const mq = window.matchMedia( "(min-width: 780px)" );

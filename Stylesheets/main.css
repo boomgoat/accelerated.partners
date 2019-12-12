@@ -59,6 +59,10 @@ section{
     transition: all 0.35s ease-in-out;
 }
 
+.scroll-nav .nav-toggle{
+    display: block;
+}
+
 .title{
     width: 400px;
     transition: all 0.35s ease-in-out;
@@ -90,6 +94,23 @@ section{
 
 .nav-left .nav-item{
     float: right!important;
+}
+
+.nav-toggle{
+    display: none;
+    font-size: 2em;
+    padding-right: 20px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+#nav-toggle{
+    transition: all 0.2s ease-in-out;
+}
+
+.rotate{
+    transform: rotate(90deg);
 }
 
 /* Landing Page */
