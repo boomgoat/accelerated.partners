@@ -15,8 +15,10 @@ function scrollFunction() {
 }
 
 function toggle() {
-    var element = document.getElementById("nav-toggle");
-    element.classList.toggle("rotate");
+    var hamburger = document.getElementById("nav-toggle");
+    var menu = document.getElementById("side-bar");
+    hamburger.classList.toggle("rotate");
+    menu.classList.toggle("slide");
 }
 
 const mq = window.matchMedia( "(min-width: 780px)" );

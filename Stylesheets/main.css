@@ -113,6 +113,20 @@ section{
     transform: rotate(90deg);
 }
 
+#side-bar{
+    height: 90vh;
+    position: fixed!important;
+    top: 12vh;
+    right: -500px;
+    z-index: 50;
+    background-color: blue;
+    transition: all 0.25s ease-in-out;
+}
+
+.slide{
+    right: 0px!important;
+}
+
 /* Landing Page */
 
 .landing{
