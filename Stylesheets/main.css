@@ -133,15 +133,33 @@ section{
 #side-bar{
     height: 90vh;
     position: fixed!important;
-    top: 12vh;
+    top: 12.25vh;
+    padding-top: 20vh;
     right: -500px;
     z-index: 50;
-    background-color: blue;
+    background-color: #001C31;
     transition: all 0.25s ease-in-out;
+}
+
+.side-block{
+    display: none;
+}
+
+#side-bar a{
+    color: white!important;
+}
+
+.side-link{
+    font-size: 1.5rem;
+    display: inline!important;
 }
 
 .slide{
     right: 0px!important;
+}
+
+.spacer{
+    margin-top: 40vh!important;
 }
 
 /* Landing Page */
@@ -161,5 +179,18 @@ section{
     }
     .mobile-logo{
         display: inline!important;
+    }
+
+    .nav-toggle{
+        display: block!important;
+        opacity: 1!important;
+        color: black!important;
+    }
+    #nav-toggle{
+        display: block!important;
+        color: #001C31;
+    }
+    .side-block{
+        display: block;
     }
   }

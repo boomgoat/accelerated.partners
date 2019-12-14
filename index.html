@@ -22,8 +22,22 @@
 <body>
     <div class="container-fluid">
       
-        <div id="side-bar" class="col-9 col-md-3">
-
+        <div id="side-bar" class="col-9 col-md-3 side-block">
+          <ul class="navbar-nav">
+            <li onclick="toggle()" class="nav-item active col-12 text-center">
+              <a class="nav-link side-link" href="#companies">Companies</a>
+            </li>
+            <li onclick="toggle()" class="nav-item active col-12 text-center">
+              <a class="nav-link side-link" href="#contact">Contact</a>
+            </li>
+            <li onclick="toggle()" class="nav-item spacer active col-12 text-center">
+              <a class="nav-link side-link" href="#contact"><h6>Disclaimer</h6></a>
+            </li>
+            <li onclick="toggle()" class="nav-item active col-12 text-center">
+              <a class="nav-link side-link col-3" href="#contact"><i class="fab fa-linkedin"></i></a>
+              <a class="nav-link side-link col-3 offset-1" href="#contact"><i class="fab fa-skype"></i></a>
+            </li>
+          </ul>
         </div>
         <div class="overlay" id="menu-overlay">
 
@@ -85,17 +99,17 @@
                         </li> -->
                       </ul>
                     </div>
-                    <div class="nav-toggle">
+                    <div class="nav-toggle" aria-hidden="false">
                         <i id="nav-toggle" onclick="toggle()" class="fas fa-bars"></i>
                     </div>
               </nav>
               <section class="row landing">
 
               </section>
-              <section class="row">
+              <section class="row" id="companies">
                 
               </section>
-              <section class="row">
+              <section class="row" id="contact">
                 
               </section>
     </div>
