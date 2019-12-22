@@ -141,6 +141,10 @@ section{
     transition: all 0.25s ease-in-out;
 }
 
+.hide-overlay{
+    display: none!important;
+}
+
 .side-block{
     display: none;
 }
@@ -168,6 +172,26 @@ section{
     background-image: url('../Resources/Backgrounds/Landing.jpg');
     background-size: cover;
     background-position: bottom;
+}
+
+/* About */
+
+hr{
+    width: 30vh;
+    border-radius: 25px;
+}
+
+.top-row{
+    padding-top: 3em;
+}
+
+.left-check{
+    padding-left: 1em;
+    padding-top: 2em;
+}
+
+.left-check h1{
+    color: #23E3AE;
 }
 
 @media screen and (max-width: 768px) {
