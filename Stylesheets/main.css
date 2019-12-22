@@ -134,7 +134,7 @@ section{
     height: 90vh;
     position: fixed!important;
     top: 12.25vh;
-    padding-top: 20vh;
+    /* padding-top: 20vh; */
     right: -500px;
     z-index: 50;
     background-color: #001C31;
@@ -153,6 +153,11 @@ section{
     color: white!important;
 }
 
+#side-bar hr{
+    border-color: white!important;
+    margin: 5px;
+}
+
 .side-link{
     font-size: 1.5rem;
     display: inline!important;
@@ -163,15 +168,15 @@ section{
 }
 
 .spacer{
-    margin-top: 40vh!important;
+    /* margin-top: 40vh!important; */
 }
 
 /* Landing Page */
 
 .landing{
-    background-image: url('../Resources/Backgrounds/Landing.jpg');
+    background-image: url('http://accelerated.partners/wp-content/uploads/2015/02/accinv-top-bg.jpg');
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
 }
 
 /* About */
@@ -192,6 +197,55 @@ hr{
 
 .left-check h1{
     color: #23E3AE;
+}
+
+/* Companies */
+
+.company-title{
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+}
+
+.company-hover{
+    transition: all 1s ease-in-out;
+}
+
+.company-hover:hover{
+    cursor: pointer;
+    filter: sepia(1);
+}
+
+/* Contact */
+
+#contact{
+    background-image: url('http://accelerated.partners/wp-content/uploads/2015/03/photo-1423068722744-a02746238362.png');
+    background-size: cover;
+    background-position: top;
+    color: white;
+}
+
+#contact a{
+    color: white;
+}
+
+.contact-overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100vw;
+}
+
+.contact-title{
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    color: white;
+}
+
+.map{
+    cursor: pointer;
+}
+
+#footer{
+    height: 10em!important;
+    background-color: #001C31!important;
 }
 
 @media screen and (max-width: 768px) {

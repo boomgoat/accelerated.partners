@@ -22,21 +22,21 @@
 <body>
     <div class="container-fluid">
       
-        <div id="side-bar" class="col-9 col-md-3 side-block">
+        <div id="side-bar" class="col-9 col-md-2 side-block">
           <ul class="navbar-nav">
-            <li onclick="toggle()" class="nav-item active col-12 text-center">
+            <li onclick="toggle()" class="nav-item active col-12 text-left">
               <a class="nav-link side-link" href="#companies">Companies</a>
-            </li>
-            <li onclick="toggle()" class="nav-item active col-12 text-center">
+            </li><hr>
+            <li onclick="toggle()" class="nav-item active col-12 text-left">
               <a class="nav-link side-link" href="#contact">Contact</a>
-            </li>
-            <li onclick="toggle()" class="nav-item spacer active col-12 text-center">
-              <a class="nav-link side-link" href="#contact"><h6>Disclaimer</h6></a>
-            </li>
-            <li onclick="toggle()" class="nav-item active col-12 text-center">
+            </li><hr>
+            <li onclick="toggle()" class="nav-item active col-12 text-left">
               <a class="nav-link side-link col-3" href="#contact"><i class="fab fa-linkedin"></i></a>
               <a class="nav-link side-link col-3 offset-1" href="#contact"><i class="fab fa-skype"></i></a>
             </li>
+            <li onclick="toggle()" class="nav-item spacer active col-12 text-left">
+              <a class="nav-link side-link" href="#contact"><h6>Disclaimer</h6></a>
+            </li
           </ul>
         </div>
         <div class="overlay" onclick="toggle()" id="menu-overlay">
@@ -191,20 +191,81 @@
                 </div>
               </section>
               <section class="row" id="companies">
-                <div class="container">
+                <div class="container text-center">
+                  <hr>
+                  <h1 class="company-title">Companies</h1>
                   <div class="row">
                     <div class="col-md-3 offset-md-1">
-
+                      <img class="col-12 company-hover" src="./Resources/Backgrounds/C-Hercare.png" alt="">
+                    </div>
+                    <div class="col-md-3 offset-md-1">
+                      <img class="col-12 company-hover" src="./Resources/Backgrounds/C-Kry.png" alt="">
+                    </div>
+                    <div class="col-md-3 offset-md-1">
+                      <img class="col-12 company-hover" src="./Resources/Backgrounds/C-TLA.png" alt="">
                     </div>
                   </div>
                   <div class="row">
-
+                    <div class="col-md-3 offset-md-1">
+                      <br><br>
+                      <img class="col-12 company-hover" src="./Resources/Backgrounds/EcoRegions.png" alt="">
+                    </div>
+                    <div class="col-md-3 offset-md-1">
+                      <img class="col-12 company-hover" src="./Resources/Backgrounds/C-ImagineCare.png" alt="">
+                    </div>
+                    <div class="col-md-3 offset-md-1">
+                      <img class="col-12 company-hover" src="./Resources/Backgrounds/C-GerasSolutions.png" alt="">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3 offset-md-1">
+                      <img class="col-12 company-hover" src="./Resources/Backgrounds/C-ISR.png" alt="">
+                    </div>
+                    <div class="col-md-3 offset-md-1">
+                      <img class="col-12 company-hover" src="./Resources/Backgrounds/C-CarryGenes.png" alt="">
+                    </div>
+                    <div class="col-md-3 offset-md-1">
+                      <img class="col-12 company-hover" src="./Resources/Backgrounds/C-CarryGenes.png" alt="">
+                    </div>
                   </div>
                 </div>
               </section>
               <section class="row" id="contact">
-                
+                <div class="contact-overlay">
+                  <div class="container text-center">
+                    <hr>
+                    <h1 class="contact-title">Contact</h1>
+                  <div class="row text-left">
+                    <div class="row col-md-4 col-12">
+                      <i class="fas fa-map-marker-alt col-2"></i>
+                      <p class="col-10">
+                        Accelerated Innovation, Europe AB <br>
+                        Nanna Svartz Väg 2 <br>
+                        171 65 Solna <br>
+                        Sweden
+                      </p>
+                    </div>
+                    <div class="row col-md-4 col-12">
+                      <i class="fas fa-envelope col-2"></i>
+                      <a href="mailto:contact@accelerated.partners"><p class="col-10">
+                        contact@accelerated.partners
+                      </p></a>
+                    </div>
+                    <div class="row col-md-4 col-12">
+                      <i class="fab fa-skype col-2"></i>
+                      <p class="col-10">
+                        accelerated.partners.stockholm
+                      </p class="col-10">
+                    </div>
+                    
+                  </div>
+                  <img class="col-12 map" src="http://accelerated.partners/wp-content/uploads/2015/03/Danish-Map.png" alt="">
+                </div>
+              </div>
               </section>
+              <div class="footer" id="footer">
+                
+              </div>
     </div>
 </body>
 </html>
