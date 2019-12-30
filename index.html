@@ -1,6 +1,7 @@
-<!DOCTYPE html>
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +9,24 @@
     <title>Accelerated Innovation</title>
     <!-- Local Imports -->
     <link rel="stylesheet" href="./Stylesheets/main.css">
-    <!-- Local Scripts -->
-    <script src="./Scripts/main.js"></script>
-    <script src="./Scripts/navbar.js"></script>
-    <script src="./Scripts/sidebar.js"></script>
+    
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
     <!-- Bootstrap & jQuery -->
     <script src="https://kit.fontawesome.com/aaee47c90d.js" crossorigin="anonymous" async></script>
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous" defer></script>  
-</head>
+    <!-- Local Scripts -->
+    <script src="./Scripts/main.js"></script>
+    <script src="./Scripts/navbar.js"></script>
+    <script src="./Scripts/sidebar.js"></script>
+
+  </head>
+
+
 <body>
     <div class="container-fluid">
       
@@ -103,7 +111,15 @@
                         <i id="nav-toggle" onclick="toggle()" class="fas fa-bars"></i>
                     </div>
               </nav>
-              <section class="row landing">
+              <section class="row landing" style="text-align:center; color:white;">
+                <div class="offset-3 col-6 my-auto">
+                  <div class="Landing-Title container" style="text-align:center; margin-top:30vh; margin-bottom:13vh; opacity: 0.65;">
+                    <h3 style="font-weight:300;">
+                      Accelerated Innovation is an entrepreneurial private equity company headquartered in Stockholm, Beijing, Hong Kong and Jakarta
+                    </h3>
+                  </div>
+                  <a href="#about"><i class="fa fa-angle-double-down"></i></a>
+                </div>
 
               </section>
               <section class="row" id="about">
@@ -112,13 +128,14 @@
                   <div class="row top-row">
                     <div class="col-md-6 col-12">
                       <h1 class="col-md-8 offset-md-2">
-                        We are an investment
+                        <!-- We are an investment
                         firm powering innovation
                         from Beijing, Hong Kong
-                        and Jakarta
+                        and Jakarta -->
+                        We back innovative ideas in healthcare and sustainability
                       </h1>
                     </div>
-                    <div class="col-md-6 col-12">
+                    <!-- <div class="col-md-6 col-12">
                       <p class="col-md-8 offset-md-2">
                         We co-invest with fortune 500 companies,
                         financial institutions, industrial groups, and
@@ -132,6 +149,20 @@
                         a broad spectrum in the healthcare innovation
                         value chain through specialized unds and SPVs
                       </span>
+                      </p>
+                    </div> -->
+                    <div class="col-md-6 col-12">
+                      <p class="col-md-8 offset-md-2">
+                        We support entrepreneurs tackling the toughest challenges in healthcare quality,
+                        affordability, and accessibility.
+                        <br>
+                        <span class="spacer">
+                        <br>
+                        We invest early, often as the first outside investor, and partner actively with teams creating
+                        scalable solutions to address large systemic needs.
+                        <br>
+                        <span class="spacer">
+                          </span>
                       </p>
                     </div>
                   </div>
@@ -173,7 +204,7 @@
                           </h1>
                         </div>
                       </div>
-                      <div class="row left-check">
+                      <!-- <div class="row left-check">
                         <div class="col-md-4 offset-md-2 col-6">
                           <p>
                             Companies funded
@@ -182,62 +213,61 @@
                             12
                           </h1>
                         </div>
-                      </div>
+                      </div> -->
                     </div>
                     <div class="col-md-6 col-12 map">
-                      <img class="col-md-8 offset-md-2 top-row" src="./Resources/Backgrounds/map.jfif" alt="">
+                      <img class="col-md-8 offset-md-2 top-row" src="./Resources/Backgrounds/worldmap.png" alt="">
                     </div>
                   </div>
                 </div>
               </section>
-              <section class="row" id="companies">
+              <section class="row" id="companies" style="background-color:rgba(230,230,230,0);">
                 <div class="container text-center">
                   <hr>
                   <h1 class="company-title">Companies</h1>
                   <div class="row">
                     <div class="col-md-3 offset-md-1">
-                      <img class="col-12 company-hover" src="./Resources/Backgrounds/C-Hercare.png" alt="">
+                      <img class="col-12 company-hover" src="./Resources/Backgrounds/ColoredLogos/c-akinion.png" alt="">
                     </div>
                     <div class="col-md-3 offset-md-1">
-                      <img class="col-12 company-hover" src="./Resources/Backgrounds/C-Kry.png" alt="">
+                      <img class="col-12 company-hover" src="./Resources/Backgrounds/ColoredLogos/c-carrygenes.png" alt="">
                     </div>
                     <div class="col-md-3 offset-md-1">
-                      <img class="col-12 company-hover" src="./Resources/Backgrounds/C-TLA.png" alt="">
+                      <img class="col-12 company-hover" src="./Resources/Backgrounds/ColoredLogos/c-ecoregions.png" alt="">
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-md-3 offset-md-1">
-                      <br><br>
-                      <img class="col-12 company-hover" src="./Resources/Backgrounds/EcoRegions.png" alt="">
+                      <img class="col-12 company-hover" src="./Resources/Backgrounds/ColoredLogos/c-imaginecare.png" alt="">
                     </div>
                     <div class="col-md-3 offset-md-1">
-                      <img class="col-12 company-hover" src="./Resources/Backgrounds/C-ImagineCare.png" alt="">
+                      <img class="col-12 company-hover" src="./Resources/Backgrounds/ColoredLogos/c-isr.png" alt="">
                     </div>
                     <div class="col-md-3 offset-md-1">
-                      <img class="col-12 company-hover" src="./Resources/Backgrounds/C-GerasSolutions.png" alt="">
+                      <img class="col-12 company-hover" src="./Resources/Backgrounds/ColoredLogos/c-ith.png" alt="">
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-md-3 offset-md-1">
-                      <img class="col-12 company-hover" src="./Resources/Backgrounds/C-ISR.png" alt="">
+                      <img class="col-12 company-hover" src="./Resources/Backgrounds/ColoredLogos/c-kry.png" alt="">
                     </div>
                     <div class="col-md-3 offset-md-1">
-                      <img class="col-12 company-hover" src="./Resources/Backgrounds/C-CarryGenes.png" alt="">
+                      <img class="col-12 company-hover" src="./Resources/Backgrounds/ColoredLogos/c-TLA.png" alt="">
                     </div>
-                    <div class="col-md-3 offset-md-1">
-                      <img class="col-12 company-hover" src="./Resources/Backgrounds/C-CarryGenes.png" alt="">
-                    </div>
+                    <!-- <div class="col-md-3 offset-md-1">
+                      <img class="col-12 company-hover" src="./Resources/Backgrounds/ColoredLogos/" alt="">
+                    </div> -->
                   </div>
                 </div>
               </section>
               <section class="row" id="contact">
-                <div class="contact-overlay">
+                <div class="contact-overlay" style="padding-bottom:10vh;">
                   <div class="container text-center">
                     <hr>
                     <h1 class="contact-title">Contact</h1>
                   <div class="row text-left">
                     <div class="row col-md-4 col-12">
-                      <i class="fas fa-map-marker-alt col-2"></i>
+                      <i class="FooterIcon fas fa-map-marker-alt col-2"></i>
                       <p class="col-10">
                         Accelerated Innovation, Europe AB <br>
                         Nanna Svartz Väg 2 <br>
@@ -246,13 +276,13 @@
                       </p>
                     </div>
                     <div class="row col-md-4 col-12">
-                      <i class="fas fa-envelope col-2"></i>
+                      <i class="FooterIcon fas fa-envelope col-2"></i>
                       <a href="mailto:contact@accelerated.partners"><p class="col-10">
                         contact@accelerated.partners
                       </p></a>
                     </div>
                     <div class="row col-md-4 col-12">
-                      <i class="fab fa-skype col-2"></i>
+                      <i class="FooterIcon fab fa-skype col-2"></i>
                       <p class="col-10">
                         accelerated.partners.stockholm
                       </p class="col-10">
@@ -263,6 +293,46 @@
                 </div>
               </div>
               </section>
+              <!-- <div class="row" id="Disclaimer" style="text-align:left;">
+                <div class = "offset-3 col-6">
+                  <h1 class="company-title" style="text-align:center;">Disclaimer</h1>
+                  <p>The material on this site is for informational purposes only and does not constitute an offer or solicitation to purchase any investments or a recommendation to buy or sell a security nor is it to be construed as investment advice.<br><br>
+                    The material on this site may not be relied on in any manner as, legal, tax or investment advice. This site is intended only to provide information to executives seeking a capital partner, to professional business intermediaries, potential fund General Partners, and to persons who already are investors in funds managed by Accelerated Innovation AB and have been issued passwords.<br><br>
+                    The information presented on this site is as of the date the particular information was posted on the site and may not reflect subsequent developments. Information provided through links provided on this site is not the responsibility of Accelerated Innovation AB, or of the funds and investments we manage.
+                    
+                    </p>
+                </div>
+              </div> -->
+              <!-- <section class="container">
+                <h1 class="company-title" style="text-align:center;">Disclaimer</h1>
+                <div class="offset-3 col-6">
+                <div class="special-text">
+                  <p>
+                    Seitan everyday carry leggings try-hard, hammock food truck thundercats jean shorts gentrify pinterest gastropub trust fund kinfolk scenester schlitz. Hammock pabst +1 four loko ennui. Before they sold out pickled crucifix umami kickstarter craft beer,
+                    cronut flexitarian austin post-ironic whatever single-origin coffee. Brooklyn franzen authentic, try-hard DIY craft beer sartorial hella actually. Four loko ramps celiac 3 wolf moon neutra. Food truck leggings pork belly disrupt echo park four loko.
+                    Deep v paleo shabby chic, 90's vinyl tofu vice seitan authentic whatever skateboard put a bird on it semiotics readymade sartorial.
+                  </p>
+                  <p>
+                    Vice pop-up farm-to-table semiotics. Shabby chic ugh swag migas brooklyn jean shorts narwhal flannel, selfies wolf umami. Flexitarian chillwave bicycle rights tacos, trust fund selvage synth waistcoat. Mlkshk yr hashtag yuccie shoreditch. 3 wolf moon
+                    humblebrag gastropub, intelligentsia gochujang tilde farm-to-table PBR&B fap vinyl pinterest irony 8-bit. Drinking vinegar XOXO hella portland ugh, man bun banjo kitsch kale chips iPhone fashion axe kinfolk chia. Intelligentsia ennui affogato cornhole,
+                    etsy roof party quinoa pug thundercats franzen tacos sartorial cardigan.
+                  </p>
+                      <p>
+                    Vice pop-up farm-to-table semiotics. Shabby chic ugh swag migas brooklyn jean shorts narwhal flannel, selfies wolf umami. Flexitarian chillwave bicycle rights tacos, trust fund selvage synth waistcoat. Mlkshk yr hashtag yuccie shoreditch. 3 wolf moon
+                    humblebrag gastropub, intelligentsia gochujang tilde farm-to-table PBR&B fap vinyl pinterest irony 8-bit. Drinking vinegar XOXO hella portland ugh, man bun banjo kitsch kale chips iPhone fashion axe kinfolk chia. Intelligentsia ennui affogato cornhole,
+                    etsy roof party quinoa pug thundercats franzen tacos sartorial cardigan.
+                  </p>
+                      <p>
+                    Vice pop-up farm-to-table semiotics. Shabby chic ugh swag migas brooklyn jean shorts narwhal flannel, selfies wolf umami. Flexitarian chillwave bicycle rights tacos, trust fund selvage synth waistcoat. Mlkshk yr hashtag yuccie shoreditch. 3 wolf moon
+                    humblebrag gastropub, intelligentsia gochujang tilde farm-to-table PBR&B fap vinyl pinterest irony 8-bit. Drinking vinegar XOXO hella portland ugh, man bun banjo kitsch kale chips iPhone fashion axe kinfolk chia. Intelligentsia ennui affogato cornhole,
+                    etsy roof party quinoa pug thundercats franzen tacos sartorial cardigan.
+                  </p>
+                </div>
+                <button class="expand-button">
+                  Continue Reading
+                </button>
+                </div>
+              </section> -->
               <div class="footer" id="footer">
                 
               </div>
